@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+}
+.Hello{
+    color: #2196F3;
+}
+.intro{
+    text-align: center;
+    background-color: #073b4c; /*#4361ee  #00b4d8*/
+    padding-top: 2px;
+    padding-bottom: 7px;
+   border-radius: 0;
+   color: white;
+   
+}
+.navbar{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10px;
+    gap: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+.btn{
+    color: white;
+    background-color: #2196F3;
+    padding: 7px 17px;
+    border: 0;
+    font-style: arial;
+    border-radius: 4px;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    gap: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+
+/* Section Container */
+.about-section {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  color: #333;
+}
+
+/* Flexbox Card to keep Logo and Text Side-by-Side */
+.about-card {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers the whole block on the screen */
+  gap: 25px;               /* Space between logo and text */
+  max-width: 650px;
+  margin: 0 auto;          /* Keeps card centered horizontally */
+}
+
+/* Circle Logo */
+.profile-logo {
+  width: 70px;
+  height: 70px;
+  background-color: #2196F3;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;          /* Prevents circle from shrinking */
+}
+
+/* Text Block Alignment */
+.about-info {
+  text-align: left;        /* Keeps lines aligned neatly to the left */
+}
+
+.about-info h3 {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  color: #111;
+}
+
+.location {
+  margin: 0 0 10px 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.bio {
+  margin: 0;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+  
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin:0  25px;
+    
+
+
+}
+.sk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.myskill{
+    background-color: #e9ecef; /* #e9ecef */
+    padding: 25px 180px;
+}
+.btn1{
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px 20px;
+    line-height: 1;
+    font-size: 17px;
+    
+}
+.btn2{
+     background-color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px 20px;
+    line-height: 1;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.btn3{
+     background-color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 17px 20px;
+    line-height: 1;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.lastline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: #e9ecef;
+    margin: 0;
+    padding: 6px 20px;
+}
+.f{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
