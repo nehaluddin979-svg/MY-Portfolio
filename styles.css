@@ -151,6 +151,41 @@ body{
     font-size: 17px;
     margin-left: 20px;
 }
+.co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 3px;
+    font-size: 28px;
+}
+.btn4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+     color: white;
+    background-color: #2196F3;
+    padding: 7px 17px;
+    border: 0;
+    font-style: arial;
+    border-radius: 4px;
+}
+.f{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .lastline{
     display: flex;
     justify-content: center;
@@ -158,8 +193,5 @@ body{
     background-color: #111;
     color: #e9ecef;
     margin: 0;
-    padding: 6px 20px;
-}
-.f{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 6px 20px;
 }
